@@ -94,12 +94,3 @@ function multiplyAndAdd() {
   }
 }
 // loader
-document.body.classList.add("overflow-hidden");
-
-window.addEventListener("load", function () {
-  const loaderContainer = document.querySelector(".loader-container");
-  this.setTimeout(() => {
-    loaderContainer.classList.add("d-none");
-    this.document.body.classList.add("overflow-visible");
-  }, 500);
-});
